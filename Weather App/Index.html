@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="card">
+        <form id="form">
+          <div class="input-container">
+            <input
+              type="text"
+              id="search"
+              placeholder="Search by location"
+              autocomplete="off"
+            />
+            <button id="searchButton">Get Weather</button>
+          </div>
+          <hr />
+        </form>
+        <table id="weatherTable" class="weather-table"></table>
+      </div>
+    </div>
+  </body>
+</html>
